@@ -7,12 +7,15 @@ name = "python-example-app"
 version = "0.1.0"
 description = "Example application"
 readme = "README.md"
+dependencies = [
+    "more-itertools>=10.5.0",
+]
 
 [tool.uv]
 dev-dependencies = [
-    "ruff>=0.7.1",
-    "pytest>=8.3.3",
-    "pytest-cov>=5.0.0",
+    "ruff>0.8.2",
+    "pytest>8.2.1",
+    "pytest-cov>5.0.0",
 ]
 
 [project.scripts]
